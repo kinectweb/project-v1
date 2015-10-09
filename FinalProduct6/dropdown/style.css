@@ -1,0 +1,107 @@
+/*body {
+    font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+    color:#fff;
+    padding: 50px;
+    width: 300px;
+    margin: 0 auto;
+  background-color: #374954;
+
+} */
+
+.dropdown{
+  float:left;
+  position:relative;
+  bottom:14px;
+}
+
+
+/*a {
+    color:#fff;
+}*/
+.dropdown dd, .dropdown dt {
+    margin:0px;
+    padding:0px;
+    z-index:30;
+}
+
+
+.dropdown ul {
+    margin: -1px 0 0 0;
+}
+.dropdown dd {
+    position:relative;
+}
+.dropdown a,
+.dropdown a:visited {
+    color:#fff;
+    text-decoration:none;
+    /*outline:none;*/
+    font-size: 12px;
+}
+.dropdown dt a {
+    /*background-color:#198d98;*/
+    display:block;
+    min-height: 17px;
+    line-height: 24px;
+    overflow: hidden;
+    /*border:0;*/
+    width:100px;
+    font-size:15px;
+    border-radius: 6px;
+    /*border: 3px outset #198d98;*/
+    text-align:center;
+    height:25px;
+    padding-bottom:5px;
+    background: -webkit-gradient(linear, left top, left bottom, 
+                  color-stop(0%,rgb(134,42,190)), 
+                  color-stop(60%,rgb(179,110,216)), 
+                  color-stop(100%,rgb(179,110,216)));
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0px 0px 1px rgb(20,20,20), 0px -2px 4px rgb(40,40,40) inset;
+}
+.dropdown dt a span, .multiSel span {
+    cursor:pointer;
+    /*display:inline-block;*/
+    /*padding: 0 3px 2px 0;*/
+}
+.dropdown dd ul {
+   border-radius: 6px;
+    background-color: #660099;
+    border:0;
+    color:#fff;
+    display:none;
+    left:0px;
+    padding: 2px 15px 2px 5px;
+    position:absolute;
+    top:2px;
+    width:100px;
+    list-style:none;
+    height: 50px;
+    overflow: auto;
+}
+.dropdown span.value {
+    display:none;
+}
+.dropdown dd ul li a {
+    padding:5px;
+    display:block;
+}
+.dropdown dd ul li a:hover {
+    background-color:#fff;
+}
+
+a{
+  margin:0;
+  padding:0;
+}
+/*button {
+  background-color: #6BBE92;
+  width: 302px;
+  border: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}*/
