@@ -1,0 +1,145 @@
+/*----------------------top right setting icon*----------------------*/
+#setIcon {
+  margin-top: 17px; }
+
+/*----------------------radio button----------------------*/
+.subGroup li input, .subGroup li label {
+  margin: 0 1rem 0 3rem; }
+
+.subGroup li input {
+  margin: 0 1rem 0 3rem; }
+.subGroup li label {
+  margin: 0 1rem 0 3rem; }
+
+[type="radio"].with-gap:checked + label:before {
+  border-radius: 50%;
+  border: 2px solid #512da8; }
+
+[type="radio"].with-gap:checked + label:after {
+  border: 2px solid #512da8;
+  background-color: #512da8; }
+
+/*----------------------search----------------------*/
+.btn, .btn:hover {
+  background-color: #512da8; }
+
+#search {
+  position: absolute;
+  left: 10%; }
+
+/*----------------------date time picker----------------------*/
+.side-nav {
+  overflow-y: none; }
+
+.datepicker {
+  width: 80%;
+  color: black; }
+
+.timePicker {
+  color: black;
+  /*width:50%;*/ }
+
+/*---------------------- datePicker style!!! ----------------------*/
+.picker {
+  outline: none; }
+
+/* Optional feature */
+/* Header - Day of the week */
+.picker__weekday-display {
+  background-color: #412486; }
+
+/* Body - Today info */
+.picker__date-display {
+  background-color: #512da8; }
+
+/* Buttons of actions */
+.picker__nav--prev:hover {
+  background-color: #EEEAF6; }
+
+.picker__nav--next:hover {
+  background-color: #EEEAF6; }
+
+.picker__nav--prev:before {
+  border-left: 0;
+  border-right: 0.75em solid #999999; }
+
+.picker__nav--next:before {
+  border-right: 0;
+  border-left: 0.75em solid #999999; }
+
+.picker__today {
+  color: black; }
+
+.picker__clear {
+  /* If you want to customize */ }
+
+.picker__close {
+  color: black; }
+
+.btn-flat.picker__today:active {
+  background-color: #EEEAF6; }
+
+.btn-flat.picker__close:active {
+  background-color: #EEEAF6; }
+
+.btn-flat.picker__clear:active {
+  background-color: #EEEAF6; }
+
+/* Select months of the year */
+.picker__select--month.browser-default {
+  display: inline;
+  background-color: #FFFFFF;
+  width: 34%;
+  border: none;
+  outline: none; }
+
+/* Every month of the year except: today */
+.picker__day {
+  /* If you want to customize */ }
+
+.picker__day:hover {
+  /* If you want to customize */ }
+
+.picker__day--infocus:hover {
+  color: #412486; }
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  color: #412486; }
+
+.picker__day.picker__day--infocus.picker__day--selected.picker__day--highlighted {
+  background-color: #E6E6E6; }
+
+/* Today */
+.picker__day.picker__day--infocus.picker__day--today.picker__day--selected.picker__day--highlighted {
+  background-color: #512da8; }
+
+.picker__day.picker__day--today {
+  color: #412486; }
+
+/*----------------------Content ----------------------*/
+#contentWrapper {
+  /*position:absolute;*/
+  margin-left: 240px;
+  /*width:100%;*/
+  /*height:auto;*/
+  /*background-color:blue;*/ }
+
+@media only screen and (max-width: 992px) {
+  #contentWrapper {
+    margin-left: 0; } }
+#videoFrame {
+  border: 1px solid #eee;
+  margin: 7px 0;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+  background-color: tomato;
+  color: white;
+  padding: 0; }
+
+#videoList {
+  width: 100px;
+  /*height:500px;*/
+  background-color: green; }
+
+/*# sourceMappingURL=test.css.map */
